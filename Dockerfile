@@ -1,6 +1,5 @@
 FROM python:3.10-slim
 
-# Install system dependencies required by PaddleOCR
 RUN apt-get update && apt-get install -y \
     libgl1 \
     libglib2.0-0 \
